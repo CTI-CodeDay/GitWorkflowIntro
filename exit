@@ -1,0 +1,25 @@
+[1mdiff --git a/__pycache__/app.cpython-310.pyc b/__pycache__/app.cpython-310.pyc[m
+[1mindex 234ee8f..3489cb0 100644[m
+Binary files a/__pycache__/app.cpython-310.pyc and b/__pycache__/app.cpython-310.pyc differ
+[1mdiff --git a/templates/students_2024.html b/templates/students_2024.html[m
+[1mindex 17d6554..b326941 100644[m
+[1m--- a/templates/students_2024.html[m
+[1m+++ b/templates/students_2024.html[m
+[36m@@ -1086,7 +1086,16 @@[m
+   <p> What I'm most looking forward to about the CodeDay Labs internship is ... </p>[m
+   <a href="">Team page (leave blank until Module 5 when you will be assigned to your teams</a>[m
+ </div>[m
+[31m-          [m
+[32m+[m[41m  [m
+[32m+[m[32m<div class="student-container">[m[41m  [m
+[32m+[m[32m  <div>[m
+[32m+[m[32m      <img src="">[m
+[32m+[m[32m  </div>[m
+[32m+[m[32m  <div class="student-name">Ngoc Chung Tran</div>[m
+[32m+[m[32m  <div> School:  </div>[m
+[32m+[m[32m  <p> What I'm most looking forward to about the CodeDay Labs internship is ... </p>[m
+[32m+[m[32m  <a href="">Team page (leave blank until Module 5 when you will be assigned to your teams</a>[m
+[32m+[m[32m</div>[m
+ [m
+     [m
+ [m
