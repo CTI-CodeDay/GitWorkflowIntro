@@ -35,7 +35,7 @@ def team_jaime_edgarh():
     return render_template('teams/jaime_edgarh.html')
 
 @app.route('/andy_ting_xia')
-def team_jaime_edgarh():
+def team_andy_ting_xia():
     return render_template('teams/andy_ting_xia.html')
 
 @app.route("/nathan_brian")
