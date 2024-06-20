@@ -34,6 +34,10 @@ def team_sun_edm():
 def team_jaime_edgarh():
     return render_template('teams/jaime_edgarh.html')
 
+@app.route('/andy_ting_xia')
+def team_jaime_edgarh():
+    return render_template('teams/andy_ting_xia.html')
+
 @app.route("/nathan_brian")
 def team_nathan_brian():
     return render_template('teams/nathan_brian.html')
