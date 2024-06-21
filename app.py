@@ -109,3 +109,10 @@ def team_nick_val():
 @app.route("/luke_noah_maya")
 def team_luke_noah_maya():
     return render_template('teams/luke_noah_maya.html')
+
+
+
+
+@app.route("/durle_emily")
+def team_durle_emily():
+    return render_template('teams/durle_emily.html')
