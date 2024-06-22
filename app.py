@@ -121,3 +121,7 @@ def team_jin_allison_saad():
 @app.route("/brian_jia_honghao")
 def team_brian_jia_honghao():
     return render_template('teams/brian_jia_honghao.html')
+
+@app.route("/Chris_Benj_Kris")
+def team_Chris_Benj_Kris():
+    return render_template('teams/Chris_Benj_Kris.html')
