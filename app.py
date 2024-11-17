@@ -268,6 +268,12 @@ def nic_ridhima_anvi():
 def team_E_S_V():
     return render_template('teams/eddie_syn_ved.html')
 
-@app.route("/team_JARJ")
-def team_JARJ():
-    return render_template('teams/team_JARJ.html')
+
+@app.route("/abdel_austin_chika")
+def team_abdel_austin_chika():
+    return render_template('teams/abdel_austin_chika.html')
+
+@app.route("/evan_jared_keith_xuan")
+def team_evan_jared_keith_xuan():
+    return render_template('teams/evan_jared_keith_xuan.html')
+
