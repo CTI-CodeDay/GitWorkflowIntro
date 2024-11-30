@@ -277,6 +277,14 @@ def team_abdel_austin_chika():
 def team_evan_jared_keith_xuan():
     return render_template('teams/evan_jared_keith_xuan.html')
 
+@app.route("/rav")
+def team_regina_andre_vansh():
+    return render_template('teams/team_regina_andre_vansh.html')
+
+@app.route("/mia_victor_alec")
+def team_mia_victor_alec():
+    return render_template('teams/mia_victor_alec.html')
+
 @app.route("/michael_brette_joshua_krishneet")
 def team_michael_brette_joshua_krishneet():
     return render_template('teams/michael_brette_joshua_krishneet.html')
@@ -296,3 +304,4 @@ def team_bo_kevin_miller():
 @app.route("/tyler_shubham_mikaella")
 def team_tyler_shubham_mikaella():
     return render_template('teams/tyler_shubham_mikaella.html')
+
