@@ -4,6 +4,10 @@ from flask import render_template
 
 app = Flask(__name__)
 
+@app.route("/justin-qilan-k")
+def justin_qilan_k():
+    return render_template("teams/justin-qilan-k.html")
+
 @app.route("/")
 def home():
     return render_template('index.html')
