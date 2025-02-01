@@ -316,3 +316,7 @@ def team_johnny_brent_drake():
 @app.route("/ahmet-khang-aizen")
 def team_ahmet_khang_aizen():
     return render_template('teams/ahmet-khang-aizen.html')
+
+@app.route("/kal_hec_ama")
+def kal_hec_ama():
+    return render_template('teams/kal_hec_ama.html')
