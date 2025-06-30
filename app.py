@@ -399,3 +399,7 @@ def team_nam_dylan_brandon():
 def team_Jane_Dane_Steven():
     return render_template('teams/Jane_Dane_Steven.html')
 
+@app.route("/qil_ari")
+def team_qil_ari():
+    return render_template('teams/qil_ari.html')
+
