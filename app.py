@@ -38,6 +38,10 @@ def cohort_2024():
 def teamASC():
     return render_template('teams/teamASC.html')
 
+@app.route("/team35")
+def team35():
+    return render_template('teams/team35.html')
+
 @app.route("/YAM")
 def YAM():
     return render_template('teams/YAM.html')
