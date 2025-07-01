@@ -12,6 +12,8 @@ def home():
 def cohort_2022():
     return render_template('students_2022.html')
 
+
+
 @app.route("/2023")
 def cohort_2023():
     return render_template('students_2023.html')
@@ -39,6 +41,10 @@ def team_shane_rashida_anthony():
 @app.route("/nat_uts")
 def team_nat_uts():
     return render_template('teams/nat_uts.html')
+
+@app.route("/route_bello")
+def team_bello():
+    return render_template('teams/bello.html')
 
 @app.route("/aryan_ethan_richie")
 def team_aryan_ethan_richie():
