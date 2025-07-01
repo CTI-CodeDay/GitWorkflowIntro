@@ -402,3 +402,7 @@ def team_Jane_Dane_Steven():
 @app.route("/team33")
 def team33():
     return render_template('teams/team33.html')
+    
+@app.route("/team33")
+def team33():
+    return render_template('teams/team33.html')
