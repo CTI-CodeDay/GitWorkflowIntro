@@ -399,3 +399,6 @@ def team_nam_dylan_brandon():
 def team_Jane_Dane_Steven():
     return render_template('teams/Jane_Dane_Steven.html')
 
+@app.route("/anthonyt_william")
+def team_anthonyt_william():
+    return render_template('teams/anthonyt_william.html')
