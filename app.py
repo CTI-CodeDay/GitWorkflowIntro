@@ -161,6 +161,7 @@ def team_23():
 @app.route("/team_7")
 def team_7():
     return render_template('teams/team_7.html')
+    
   
 @app.route("/team29")
 def team29():
@@ -399,3 +400,6 @@ def team_nam_dylan_brandon():
 def team_Jane_Dane_Steven():
     return render_template('teams/Jane_Dane_Steven.html')
 
+@app.route("/teamDarshit")
+def teamDarshit():
+    return render_template('teams/teamDarshit.html')
