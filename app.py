@@ -400,5 +400,5 @@ def team_Jane_Dane_Steven():
     return render_template('teams/Jane_Dane_Steven.html')
 
 @app.route("/Team15")
-def team_Carly_Bo():
+def team_15():
     return render_template('teams/Team15.html')
