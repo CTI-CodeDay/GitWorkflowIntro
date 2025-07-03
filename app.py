@@ -398,7 +398,24 @@ def team_nam_dylan_brandon():
 @app.route("/Jane_Dane_Steven")
 def team_Jane_Dane_Steven():
     return render_template('teams/Jane_Dane_Steven.html')
+    
+@app.route("/will_ann_rian")
+def team_will_ann_rian():
+    return render_template('teams/will_ann_rian.html')
 
+@app.route("/brash")
+def team_brash():
+    return render_template('teams/brash.html')
+
+@app.route("/team41")
+def team_41():
+    return render_template('teams/team41.html')
+  
+@app.route("/team_jose_caden_wanni")
+def team_jose_caden_wanni():
+    return render_template('teams/team_jose_caden_wanni.html')
+  
 @app.route("/jackie_chelsea")
 def team_jackie_chelsea():
     return render_template('teams/jackie_chelsea.html')
+
