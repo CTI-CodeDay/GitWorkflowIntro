@@ -411,6 +411,10 @@ def team_brash():
 def team_41():
     return render_template('teams/team41.html')
 
+@app.route("/mia_wenchao")
+def team_mia_wenchao():
+    return render_template('teams/mia_wenchao.html')
+
 @app.route("/team_jose_caden_wanni")
 def team_jose_caden_wanni():
     return render_template('teams/team_jose_caden_wanni.html')
