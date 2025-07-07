@@ -410,7 +410,11 @@ def team_brash():
 @app.route("/team41")
 def team_41():
     return render_template('teams/team41.html')
-
+  
+@app.route("/team33")
+def team33():
+    return render_template('teams/team33.html')
+    
 @app.route("/team_jose_caden_wanni")
 def team_jose_caden_wanni():
     return render_template('teams/team_jose_caden_wanni.html')
