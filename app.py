@@ -161,6 +161,7 @@ def team_23():
 @app.route("/team_7")
 def team_7():
     return render_template('teams/team_7.html')
+    
   
 @app.route("/team29")
 def team29():
@@ -403,6 +404,11 @@ def team_Jane_Dane_Steven():
 def team_will_ann_rian():
     return render_template('teams/will_ann_rian.html')
 
+<<<<<<< HEAD
+@app.route("/teamDarshit")
+def teamDarshit():
+    return render_template('teams/teamDarshit.html')
+=======
 @app.route("/brash")
 def team_brash():
     return render_template('teams/brash.html')
@@ -414,3 +420,4 @@ def team_41():
 @app.route("/team_jose_caden_wanni")
 def team_jose_caden_wanni():
     return render_template('teams/team_jose_caden_wanni.html')
+>>>>>>> main
