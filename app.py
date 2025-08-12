@@ -25,6 +25,10 @@ def cohort_2023():
 def team_jason_joshua_yvonna():
     return render_template('teams/jason_joshua_yvonna.html')
 
+@app.route("/jerry_josh_brette")
+def team_jerry_josh_brette():
+    return render_template('teams/jerry_josh_brette.html')
+
 
 @app.route("/arm_phil_dyl")
 def team_arm_phil_dyl():
