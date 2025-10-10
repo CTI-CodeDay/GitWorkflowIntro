@@ -58,6 +58,10 @@ def team_shane_rashida_anthony():
 def team_nat_uts():
     return render_template('teams/nat_uts.html')
 
+@app.route("/oscar_hugo_enoch")
+def team_oscar_hugo_enoch():
+    return render_template('teams/oscar_hugo_enoch.html')
+
 @app.route("/aryan_ethan_richie")
 def team_aryan_ethan_richie():
     return render_template('teams/aryan_ethan_richie.html')
