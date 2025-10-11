@@ -34,11 +34,17 @@ def cohort_2024():
 def teamASC():
     return render_template('teams/teamASC.html')
 
+@app.route("/YAM")
+def YAM():
+    return render_template('teams/YAM.html')
 
 @app.route("/2025")
 def cohort_2025():
     return render_template('students_2025.html')
 
+@app.route("/agam_asher_jiayi")
+def team_agam_asher_jiayi():
+    return render_template('teams/agam_asher_jiayi.html')
 
 @app.route("/shane_rashida_anthony")
 def team_shane_rashida_anthony():
@@ -379,7 +385,94 @@ def team_bo_kevin_miller():
 def team_tyler_shubham_mikaella():
     return render_template('teams/tyler_shubham_mikaella.html')
 
+@app.route("/team_bjp")
+def team_bjp():
+    return render_template('teams/team_bjp.html')
 
-@app.route("/sakar_joshua_viet")
-def team_sakar_joshua_viet():
-    return render_template('teams/sakar_joshua_viet.html')
+@app.route("/abas_jake_mon")
+def team_abas_jake_mon():
+    return render_template('teams/abas_jake_mon.html')
+
+@app.route("/chris_neel_marcelo")
+def team_chris_neel_marcelo():
+    return render_template("teams/chris_neel_marcelo.html")
+
+@app.route("/kev_kun_ye")
+def team_kevin_kundyz_yechan():
+    return render_template('teams/kev_kun_ye.html')
+
+@app.route("/caden_helen_anthony")
+def team_caden_helen_anthony():
+    return render_template('teams/caden_helen_anthony.html')
+
+@app.route("/microinternship-c1")
+def team_johnny_brent_drake():
+    return render_template('teams/microinternship-c1.html')
+
+@app.route("/ahmet-khang-aizen")
+def team_ahmet_khang_aizen():
+    return render_template('teams/ahmet-khang-aizen.html')
+
+@app.route("/kar_all")
+def team_karan_allen():
+    return render_template('teams/kar_all.html')
+
+@app.route("/aaron-kiko-azriel")
+def teamPageBLB():
+    return render_template('teams/aaron_Kiko_Azriel.html')
+
+@app.route("/kat_aaron_will_jerry")
+def team_kat_aaron_will_jerry():
+    return render_template('teams/team_kat_aaron_will_jerry.html')
+
+@app.route("/sophia_phineas_aaron")
+def team_sophia_phineas_aaron():
+    return render_template('teams/sophia_phineas_aaron.html')
+
+@app.route("/kal_hec_ama")
+def kal_hec_ama():
+    return render_template('teams/kal_hec_ama.html')
+
+@app.route("/amo_will_nee")
+def team_amo_wil_nee():
+    return render_template('teams/amo_will_nee.html')
+
+@app.route("/aut_wanni_sab")
+def team_aut_wanni_sab():
+    return render_template('teams/aut_wanni_sab.html')
+
+@app.route("/lars_wil_ang")
+def team_lars_wil_ang():
+    return render_template('teams/LarsWilAng.html')
+
+@app.route("/ann_rian_chris")
+def team_ann_rian_chris():
+    return render_template('teams/ann_rian_chris.html')
+
+@app.route("/gian_daniel_alejandro")
+def team_gian_daniel_alejandro():
+    return render_template('teams/gian_daniel_alejandro.html') 
+
+@app.route("/nam_dylan_brandon")
+def team_nam_dylan_brandon():
+    return render_template('teams/teamDRNNBC.html')
+  
+@app.route("/Jane_Dane_Steven")
+def team_Jane_Dane_Steven():
+    return render_template('teams/Jane_Dane_Steven.html')
+    
+@app.route("/will_ann_rian")
+def team_will_ann_rian():
+    return render_template('teams/will_ann_rian.html')
+
+@app.route("/brash")
+def team_brash():
+    return render_template('teams/brash.html')
+
+@app.route("/team41")
+def team_41():
+    return render_template('teams/team41.html')
+
+@app.route("/team_jose_caden_wanni")
+def team_jose_caden_wanni():
+    return render_template('teams/team_jose_caden_wanni.html')
