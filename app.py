@@ -19,6 +19,9 @@ def cohort_2022():
 def cohort_2023():
     return render_template('students_2023.html')
 
+@app.route("/teamI")
+def team_i():
+    return render_template('teams/teamI.html')
 
 @app.route("/arm_phil_dyl")
 def team_arm_phil_dyl():
