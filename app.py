@@ -503,3 +503,8 @@ def team_audr_danny_leonardo():
 @app.route("/deandre_jedrick_val")
 def deandre_jedrick_val():
     return render_template('teams/deandre_jedrick_val.html')
+
+
+@app.route("/team_Eugene_Hien_Jaime_Octavio")
+def team_Eugene_Hien_Jaime_Octavio():
+    return render_template('teams/team_Eugene_Hien_Jaime_Octavio.html')
