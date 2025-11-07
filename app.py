@@ -514,3 +514,7 @@ def deandre_jedrick_val():
 @app.route("/team_Eugene_Hien_Jaime_Octavio")
 def team_Eugene_Hien_Jaime_Octavio():
     return render_template('teams/team_Eugene_Hien_Jaime_Octavio.html')
+
+@app.route("/team_tyler_caleb_andrew_nate")
+def team_tyler_caleb_andrew_nate():
+    return render_template('teams/team_tyler_caleb_andrew_nate.html')
