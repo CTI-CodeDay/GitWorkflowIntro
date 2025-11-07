@@ -484,6 +484,38 @@ def team_41():
 def team_jose_caden_wanni():
     return render_template('teams/team_jose_caden_wanni.html')
 
+@app.route("/an_princeton_nathan_anthony")
+def team_an_princeton_nathan_anthony():
+    return render_template('teams/an_princeton_nathan_anthony.html')
+
+@app.route("/team_justin_shun_khaterina")
+def team_justin_shun_khaterina():
+    return render_template('teams/justin_khaterina_shun.html')
+
+@app.route("/team_lynn_sam_ed_ray")
+def team_lynn_sam_ed_ray():
+    return render_template('teams/team_lynn_sam_ed_ray.html')
+
+@app.route("/team_octavio_tyler_phu")
+def team_octavio_tyler_phu():
+    return render_template('teams/octavio_tyler_phu.html')
+
+@app.route("/audr_danny_leonardo")
+def team_audr_danny_leonardo():
+    return render_template('teams/audr_danny_leonardo.html')
+
+@app.route("/deandre_jedrick_val")
+def deandre_jedrick_val():
+    return render_template('teams/deandre_jedrick_val.html')
+
+@app.route("/team_Eugene_Hien_Jaime_Octavio")
+def team_Eugene_Hien_Jaime_Octavio():
+    return render_template('teams/team_Eugene_Hien_Jaime_Octavio.html')
+
+@app.route("/an_princeton_nathan_anthony")
+def team_an_princeton_nathan_anthony():
+    return render_template('teams/an_princeton_nathan_anthony.html')
+
 @app.route("/team_justin_shun_khaterina")
 def team_justin_shun_khaterina():
     return render_template('teams/justin_khaterina_shun.html')
