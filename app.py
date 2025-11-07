@@ -507,3 +507,7 @@ def deandre_jedrick_val():
 @app.route("/wei_ngoc_tam_alngdi")
 def team_wei_ngoc_tam_alngdi():
     return render_template('teams/wei_ngoc_tam_alngdi.html')
+
+@app.route("/team_Eugene_Hien_Jaime_Octavio")
+def team_Eugene_Hien_Jaime_Octavio():
+    return render_template('teams/team_Eugene_Hien_Jaime_Octavio.html')
