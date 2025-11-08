@@ -72,6 +72,9 @@ def team_aryan_ethan_richie():
 def team_sun_edm():
     return render_template('teams/sun_edm.html')
 
+@app.route("/Limaleochan")
+def team_Limaleochan():
+    return render_template('teams/Limaleochan.html')
 
 @app.route('/jaime_edgarh')
 def team_jaime_edgarh():
