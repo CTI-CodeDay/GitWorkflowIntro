@@ -45,6 +45,10 @@ def YAM():
 def cohort_2025():
     return render_template('students_2025.html')
 
+@app.route("/adpt")
+def adpt():
+    return render_template('teams/adpt.html')
+
 @app.route("/agam_asher_jiayi")
 def team_agam_asher_jiayi():
     return render_template('teams/agam_asher_jiayi.html')
@@ -57,7 +61,6 @@ def team_shane_rashida_anthony():
 @app.route("/nat_uts")
 def team_nat_uts():
     return render_template('teams/nat_uts.html')
-
 
 @app.route("/oscar_hugo_enoch")
 def team_oscar_hugo_enoch():
