@@ -75,6 +75,9 @@ def team_aryan_ethan_richie():
 def team_sun_edm():
     return render_template('teams/sun_edm.html')
 
+@app.route("/Limaleochan")
+def team_Limaleochan():
+    return render_template('teams/Limaleochan.html')
 
 @app.route('/jaime_edgarh')
 def team_jaime_edgarh():
@@ -511,3 +514,7 @@ def deandre_jedrick_val():
 @app.route("/team_Eugene_Hien_Jaime_Octavio")
 def team_Eugene_Hien_Jaime_Octavio():
     return render_template('teams/team_Eugene_Hien_Jaime_Octavio.html')
+
+@app.route("/team_tyler_caleb_andrew_nate")
+def team_tyler_caleb_andrew_nate():
+    return render_template('teams/team_tyler_caleb_andrew_nate.html')
