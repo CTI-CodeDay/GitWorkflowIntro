@@ -32,6 +32,14 @@ def team_arm_phil_dyl():
 def cohort_2024():
     return render_template('students_2024.html')
 
+@app.route("/2025")
+def cohort_2025():
+    return render_template('students_2025.html')
+
+
+@app.route("/2026")
+def cohort_2026():
+    return render_template('students_2026.html')
 
 @app.route("/teamASC")
 def teamASC():
@@ -40,10 +48,6 @@ def teamASC():
 @app.route("/YAM")
 def YAM():
     return render_template('teams/YAM.html')
-
-@app.route("/2025")
-def cohort_2025():
-    return render_template('students_2025.html')
 
 @app.route("/adpt")
 def adpt():
