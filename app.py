@@ -526,3 +526,7 @@ def team_tyler_caleb_andrew_nate():
 @app.route("/sweksha_clara_vanessa_emmanuel")
 def sweksha_clara_vanessa_emmanuel():
     return render_template('teams/sweksha_clara_vanessa_emmanuel.html')
+
+@app.route("/DestinyV_KyleP_OscarA")
+def DestinyV_KyleP_OscarA():
+    return render_template('teams/DestinyV_KyleP_OscarA.html')
