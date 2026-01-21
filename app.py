@@ -494,6 +494,10 @@ def team_41():
 def team_jose_caden_wanni():
     return render_template('teams/team_jose_caden_wanni.html')
 
+@app.route("/an_princeton_nathan_anthony")
+def team_an_princeton_nathan_anthony():
+    return render_template('teams/an_princeton_nathan_anthony.html')
+
 @app.route("/team_justin_shun_khaterina")
 def team_justin_shun_khaterina():
     return render_template('teams/justin_khaterina_shun.html')
@@ -513,7 +517,6 @@ def team_audr_danny_leonardo():
 @app.route("/deandre_jedrick_val")
 def deandre_jedrick_val():
     return render_template('teams/deandre_jedrick_val.html')
-
 
 @app.route("/team_Eugene_Hien_Jaime_Octavio")
 def team_Eugene_Hien_Jaime_Octavio():
