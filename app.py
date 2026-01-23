@@ -527,6 +527,3 @@ def team_tyler_caleb_andrew_nate():
 def sweksha_clara_vanessa_emmanuel():
     return render_template('teams/sweksha_clara_vanessa_emmanuel.html')
 
-@app.route("/dem-rub-tony-jos")
-def team_name():
-    return render_template('teams/dem-rub-tony-jos.html')
