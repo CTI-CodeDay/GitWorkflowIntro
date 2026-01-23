@@ -45,6 +45,10 @@ def cohort_2026():
 def teamASC():
     return render_template('teams/teamASC.html')
 
+@app.route("/teamMMME")
+def teamMMME():
+    return render_template('teams/maor_milo_michelle_edgar.html')
+
 @app.route("/YAM")
 def YAM():
     return render_template('teams/YAM.html')
