@@ -528,5 +528,5 @@ def sweksha_clara_vanessa_emmanuel():
     return render_template('teams/sweksha_clara_vanessa_emmanuel.html')
 
 @app.route("/teamAGR")
-def alexander_gokul_ryan():
+def teamAGR():
     return render_template('teams/teamAGR.html')
