@@ -533,7 +533,6 @@ def sweksha_clara_vanessa_emmanuel():
 
 @app.route("/teamAGR")
 def teamAGR():
-def alexander_gokul_ryan():
     return render_template('teams/teamAGR.html')
 @app.route("/team_Seline_Youseff_Marine_Jorge")
 def team_Seline_Youseff_Marine_Jorge():
