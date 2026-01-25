@@ -32,18 +32,26 @@ def team_arm_phil_dyl():
 def cohort_2024():
     return render_template('students_2024.html')
 
+@app.route("/2025")
+def cohort_2025():
+    return render_template('students_2025.html')
+
+
+@app.route("/2026")
+def cohort_2026():
+    return render_template('students_2026.html')
 
 @app.route("/teamASC")
 def teamASC():
     return render_template('teams/teamASC.html')
 
+@app.route("/teamMMME")
+def teamMMME():
+    return render_template('teams/maor_milo_michelle_edgar.html')
+
 @app.route("/YAM")
 def YAM():
     return render_template('teams/YAM.html')
-
-@app.route("/2025")
-def cohort_2025():
-    return render_template('students_2025.html')
 
 @app.route("/adpt")
 def adpt():
@@ -529,3 +537,6 @@ def zhuolei_ashlin_kaissy():
 
     
 
+@app.route("/team_Seline_Youseff_Marine_Jorge")
+def team_Seline_Youseff_Marine_Jorge():
+    return render_template('teams/keyshade.html')
