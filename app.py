@@ -45,6 +45,10 @@ def cohort_2026():
 def teamASC():
     return render_template('teams/teamASC.html')
 
+@app.route("/teamMMME")
+def teamMMME():
+    return render_template('teams/maor_milo_michelle_edgar.html')
+
 @app.route("/YAM")
 def YAM():
     return render_template('teams/YAM.html')
@@ -530,3 +534,21 @@ def sweksha_clara_vanessa_emmanuel():
 @app.route("/tony_josue_ruben_demi")
 def team_tony_josue_ruben_demi():
     return render_template('teams/tony_josue_ruben_demi.html')
+
+@app.route("/zhuolei_ashlin_kaissy")
+def zhuolei_ashlin_kaissy():
+    return render_template('teams/zhuolei_ashlin_kaissy.html')
+
+    
+
+@app.route("/teamAGR")
+def teamAGR():
+    return render_template('teams/teamAGR.html')
+@app.route("/team_Seline_Youseff_Marine_Jorge")
+def team_Seline_Youseff_Marine_Jorge():
+    return render_template('teams/keyshade.html')
+
+@app.route("/DestinyV_KyleP_OscarA")
+def DestinyV_KyleP_OscarA():
+    return render_template('teams/DestinyV_KyleP_OscarA.html')
+
