@@ -531,6 +531,10 @@ def team_tyler_caleb_andrew_nate():
 def sweksha_clara_vanessa_emmanuel():
     return render_template('teams/sweksha_clara_vanessa_emmanuel.html')
 
+@app.route("/rus_ama_yos")
+def Micro_internship_team():
+    return render_template('teams/rus_ama_yos.html')
+
 @app.route("/tony_josue_ruben_demi")
 def team_tony_josue_ruben_demi():
     return render_template('teams/tony_josue_ruben_demi.html')
@@ -544,6 +548,7 @@ def zhuolei_ashlin_kaissy():
 @app.route("/teamAGR")
 def teamAGR():
     return render_template('teams/teamAGR.html')
+  
 @app.route("/team_Seline_Youseff_Marine_Jorge")
 def team_Seline_Youseff_Marine_Jorge():
     return render_template('teams/keyshade.html')
