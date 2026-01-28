@@ -543,3 +543,8 @@ def alexander_gokul_ryan():
 @app.route("/team_Seline_Youseff_Marine_Jorge")
 def team_Seline_Youseff_Marine_Jorge():
     return render_template('teams/keyshade.html')
+
+@app.route("/DestinyV_KyleP_OscarA")
+def DestinyV_KyleP_OscarA():
+    return render_template('teams/DestinyV_KyleP_OscarA.html')
+
