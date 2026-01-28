@@ -531,6 +531,15 @@ def team_tyler_caleb_andrew_nate():
 def sweksha_clara_vanessa_emmanuel():
     return render_template('teams/sweksha_clara_vanessa_emmanuel.html')
 
+@app.route("/zhuolei_ashlin_kaissy")
+def zhuolei_ashlin_kaissy():
+    return render_template('teams/zhuolei_ashlin_kaissy.html')
+
+    
+
+@app.route("/teamAGR")
+def alexander_gokul_ryan():
+    return render_template('teams/teamAGR.html')
 @app.route("/team_Seline_Youseff_Marine_Jorge")
 def team_Seline_Youseff_Marine_Jorge():
     return render_template('teams/keyshade.html')
@@ -538,3 +547,4 @@ def team_Seline_Youseff_Marine_Jorge():
 @app.route("/DestinyV_KyleP_OscarA")
 def DestinyV_KyleP_OscarA():
     return render_template('teams/DestinyV_KyleP_OscarA.html')
+
