@@ -557,3 +557,6 @@ def team_Seline_Youseff_Marine_Jorge():
 def DestinyV_KyleP_OscarA():
     return render_template('teams/DestinyV_KyleP_OscarA.html')
 
+@app.route("/kevin_richie_karan")
+def team_kevin_richie_karan():
+    return render_template('teams/kevin_richie_karan.html')
