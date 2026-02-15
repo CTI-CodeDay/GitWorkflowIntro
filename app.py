@@ -557,3 +557,7 @@ def team_Seline_Youseff_Marine_Jorge():
 def DestinyV_KyleP_OscarA():
     return render_template('teams/DestinyV_KyleP_OscarA.html')
 
+@app.route("/qil_ari")
+def team_qil_ari():
+    return render_template('teams/qil_ari.html')
+
