@@ -32,18 +32,30 @@ def team_arm_phil_dyl():
 def cohort_2024():
     return render_template('students_2024.html')
 
+@app.route("/2025")
+def cohort_2025():
+    return render_template('students_2025.html')
+
+
+@app.route("/2026")
+def cohort_2026():
+    return render_template('students_2026.html')
 
 @app.route("/teamASC")
 def teamASC():
     return render_template('teams/teamASC.html')
 
+@app.route("/teamMMME")
+def teamMMME():
+    return render_template('teams/maor_milo_michelle_edgar.html')
+
 @app.route("/YAM")
 def YAM():
     return render_template('teams/YAM.html')
 
-@app.route("/2025")
-def cohort_2025():
-    return render_template('students_2025.html')
+@app.route("/adpt")
+def adpt():
+    return render_template('teams/adpt.html')
 
 @app.route("/agam_asher_jiayi")
 def team_agam_asher_jiayi():
@@ -58,7 +70,6 @@ def team_shane_rashida_anthony():
 def team_nat_uts():
     return render_template('teams/nat_uts.html')
 
-
 @app.route("/oscar_hugo_enoch")
 def team_oscar_hugo_enoch():
     return render_template('teams/oscar_hugo_enoch.html')
@@ -72,6 +83,9 @@ def team_aryan_ethan_richie():
 def team_sun_edm():
     return render_template('teams/sun_edm.html')
 
+@app.route("/Limaleochan")
+def team_Limaleochan():
+    return render_template('teams/Limaleochan.html')
 
 @app.route('/jaime_edgarh')
 def team_jaime_edgarh():
@@ -503,3 +517,43 @@ def team_audr_danny_leonardo():
 @app.route("/deandre_jedrick_val")
 def deandre_jedrick_val():
     return render_template('teams/deandre_jedrick_val.html')
+
+
+@app.route("/team_Eugene_Hien_Jaime_Octavio")
+def team_Eugene_Hien_Jaime_Octavio():
+    return render_template('teams/team_Eugene_Hien_Jaime_Octavio.html')
+
+@app.route("/team_tyler_caleb_andrew_nate")
+def team_tyler_caleb_andrew_nate():
+    return render_template('teams/team_tyler_caleb_andrew_nate.html')
+
+@app.route("/sweksha_clara_vanessa_emmanuel")
+def sweksha_clara_vanessa_emmanuel():
+    return render_template('teams/sweksha_clara_vanessa_emmanuel.html')
+
+@app.route("/rus_ama_yos")
+def Micro_internship_team():
+    return render_template('teams/rus_ama_yos.html')
+
+@app.route("/tony_josue_ruben_demi")
+def team_tony_josue_ruben_demi():
+    return render_template('teams/tony_josue_ruben_demi.html')
+
+@app.route("/zhuolei_ashlin_kaissy")
+def zhuolei_ashlin_kaissy():
+    return render_template('teams/zhuolei_ashlin_kaissy.html')
+
+    
+
+@app.route("/teamAGR")
+def teamAGR():
+    return render_template('teams/teamAGR.html')
+  
+@app.route("/team_Seline_Youseff_Marine_Jorge")
+def team_Seline_Youseff_Marine_Jorge():
+    return render_template('teams/keyshade.html')
+
+@app.route("/DestinyV_KyleP_OscarA")
+def DestinyV_KyleP_OscarA():
+    return render_template('teams/DestinyV_KyleP_OscarA.html')
+
