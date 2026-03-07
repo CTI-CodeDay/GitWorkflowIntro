@@ -557,3 +557,6 @@ def team_Seline_Youseff_Marine_Jorge():
 def DestinyV_KyleP_OscarA():
     return render_template('teams/DestinyV_KyleP_OscarA.html')
 
+@app.route("/diego_maynor")
+def team_diego_maynor():
+    return render_template('teams/diego_maynor.html')
