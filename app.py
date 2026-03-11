@@ -573,3 +573,7 @@ def team_woo_jos():
 def Kaur_Arteaga_SantaMaria():
     return render_template('teams/Kaur_Arteaga_SantaMaria.html')
 
+@app.route("/qil_ari")
+def team_qil_ari():
+    return render_template('teams/qil_ari.html')
+
