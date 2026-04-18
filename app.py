@@ -418,6 +418,11 @@ def team_abas_jake_mon():
 def team_chris_neel_marcelo():
     return render_template("teams/chris_neel_marcelo.html")
 
+
+@app.route("/Santamaria_Osorio_Villarreal")
+def team_santamaria_osorio_villarreal():
+    return render_template("teams/Santamaria_Osorio_Villarreal.html")
+
 @app.route("/kev_kun_ye")
 def team_kevin_kundyz_yechan():
     return render_template('teams/kev_kun_ye.html')
