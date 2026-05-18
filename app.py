@@ -573,3 +573,6 @@ def team_woo_jos():
 def Kaur_Arteaga_SantaMaria():
     return render_template('teams/Kaur_Arteaga_SantaMaria.html')
 
+@app.route("/Johnny_Madison")
+def Johnny_Madison();
+    return render_template ('teams/Johnny_Madison.html')
